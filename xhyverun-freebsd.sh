@@ -11,7 +11,7 @@ BOOTVOLUME="FreeBSD-10.1-RELEASE-amd64.raw"
 KERNELENV=""
 
 MEM="-m 1G"
-#SMP="-c 2"
+SMP="-c 2"
 NET="-s 2:0,virtio-net"
 #IMG_CD="-s 3,ahci-cd,/somepath/somefile.iso"
 IMG_HDD="-s 4,virtio-blk,FreeBSD-10.1-RELEASE-amd64.raw"
