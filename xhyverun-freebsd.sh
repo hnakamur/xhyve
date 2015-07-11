@@ -12,7 +12,7 @@ KERNELENV=""
 
 MEM="-m 1G"
 #SMP="-c 2"
-#NET="-s 2:0,virtio-net"
+NET="-s 2:0,virtio-net"
 #IMG_CD="-s 3,ahci-cd,/somepath/somefile.iso"
 IMG_HDD="-s 4,virtio-blk,FreeBSD-10.1-RELEASE-amd64.raw"
 PCI_DEV="-s 0:0,hostbridge -s 31,lpc"
